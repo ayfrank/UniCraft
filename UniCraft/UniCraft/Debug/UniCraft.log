@@ -1,0 +1,10 @@
+﻿Build started 23/07/2015 11:24:09.
+     1>Project "C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\UniCraft\UniCraft.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt KnowledgeBase.cpp
+         KnowledgeBase.cpp
+     1>Done Building Project "C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\UniCraft\UniCraft.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.41
