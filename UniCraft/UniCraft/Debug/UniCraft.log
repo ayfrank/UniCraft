@@ -1,0 +1,40 @@
+﻿Build started 23/07/2015 18:01:29.
+     1>Project "C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\UniCraft\UniCraft.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AbstractAttack.cpp AbstractBuildBuildings.cpp AbstractCollectResources.cpp AbstractCreateOrUpdateUnits.cpp AbstractDefend.cpp AbstractScouting.cpp CollectResources.cpp KnowledgeBase.cpp Manager.cpp ScoutReachableBaseLocations.cpp Strategy.cpp StupidAttack.cpp Tactic.cpp
+         AbstractAttack.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Tactic.cpp
+         StupidAttack.cpp
+         Strategy.cpp
+         ScoutReachableBaseLocations.cpp
+         Manager.cpp
+         KnowledgeBase.cpp
+         CollectResources.cpp
+         AbstractScouting.cpp
+         AbstractDefend.cpp
+         AbstractCreateOrUpdateUnits.cpp
+         AbstractCollectResources.cpp
+         AbstractBuildBuildings.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\Debug\UniCraft.exe" /INCREMENTAL /NOLOGO ../lib/BWAPId.lib ../lib/BWAPIClientd.lib ../lib/BWTAd.lib "../lib/libboost_filesystem-vc120-mt-gd-1_56.lib" "../lib/libboost_system-vc120-mt-gd-1_56.lib" "../lib/libboost_thread-vc120-mt-gd-1_56.lib" "../lib/libCGAL-vc120-mt-gd-4.4.lib" "../lib/libgmp-10.lib" "../lib/libmpfr-4.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\Debug\UniCraft.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\Debug\UniCraft.lib" /MACHINE:X86 Debug\AbstractAttack.obj
+         Debug\AbstractBuildBuildings.obj
+         Debug\AbstractCollectResources.obj
+         Debug\AbstractCreateOrUpdateUnits.obj
+         Debug\AbstractDefend.obj
+         Debug\AbstractScouting.obj
+         Debug\CollectResources.obj
+         Debug\KnowledgeBase.obj
+         Debug\main.obj
+         Debug\Manager.obj
+         Debug\ScoutReachableBaseLocations.obj
+         Debug\Strategy.obj
+         Debug\StupidAttack.obj
+         Debug\Tactic.obj
+         UniCraft.vcxproj -> C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\Debug\UniCraft.exe
+     1>Done Building Project "C:\Users\Francesco\Documents\Visual Studio 2013\Projects\UniCraft\UniCraft\UniCraft.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72
