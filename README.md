@@ -1,6 +1,6 @@
 # UniCraft
 
-In order to compile the project put BWAPI and BWTA to ..\External\Include\ ..\External\Lib\
+In order to compile the project put BWAPI, BWTA and BehaviorTrees to ..\External\Include\ ..\External\Lib\
 
 ---------------------------------------------------------
 
