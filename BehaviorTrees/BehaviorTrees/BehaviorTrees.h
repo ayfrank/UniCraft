@@ -1,0 +1,11 @@
+#pragma once
+#include "Action.h"
+#include "Component.h"
+#include "Composite.h"
+#include "Condition.h"
+#include "Decorator.h"
+#include "Leaf.h"
+#include "Link.h"
+#include "Selector.h"
+#include "Sequence.h"
+#include "SequentialSelector.h"
