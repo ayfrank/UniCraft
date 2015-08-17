@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2481F5BA-60A1-448C-ACB3-7979CAFD9EF2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>UniCraft</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\External\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\External\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\External\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\External\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractAttack.h" />
+    <ClInclude Include="AbstractBuildBuildings.h" />
+    <ClInclude Include="AbstractCollectResources.h" />
+    <ClInclude Include="AbstractCreateOrUpdateUnits.h" />
+    <ClInclude Include="AbstractDefend.h" />
+    <ClInclude Include="AbstractScouting.h" />
+    <ClInclude Include="AreThereEnoughSupplies.h" />
+    <ClInclude Include="BehaviorTreesStrategy.h" />
+    <ClInclude Include="BuildBuildings.h" />
+    <ClInclude Include="BuildingOrder.h" />
+    <ClInclude Include="BuildingOrdersManager.h" />
+    <ClInclude Include="CollectResources.h" />
+    <ClInclude Include="CreateMarines.h" />
+    <ClInclude Include="CreateOrUpdateUnits.h" />
+    <ClInclude Include="CreateWorkers.h" />
+    <ClInclude Include="Defend.h" />
+    <ClInclude Include="InsertBarracksIntoBuildingQueue.h" />
+    <ClInclude Include="InsertCommandCenterIntoBuildingQueue.h" />
+    <ClInclude Include="InsertSupplyDepotsIntoBuildingQueue.h" />
+    <ClInclude Include="IsBuildingQueueEmpty.h" />
+    <ClInclude Include="IsFirstAttack.h" />
+    <ClInclude Include="IsNotFirstAttack.h" />
+    <ClInclude Include="IsThereACommandCenter.h" />
+    <ClInclude Include="IsThereAnyBarrack.h" />
+    <ClInclude Include="KnowledgeBase.h" />
+    <ClInclude Include="LessThanNMarines.h" />
+    <ClInclude Include="LessThanNUnits.h" />
+    <ClInclude Include="MoreThanNUnits.h" />
+    <ClInclude Include="MoreThanNWorkers.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="MoreThanNBarracks.h" />
+    <ClInclude Include="ScoutReachableBaseLocations.h" />
+    <ClInclude Include="SeekAndDestroy.h" />
+    <ClInclude Include="Strategy.h" />
+    <ClInclude Include="TacticAction.h" />
+    <ClInclude Include="UnderAttack.h" />
+    <ClInclude Include="WaveAttack.h" />
+    <ClInclude Include="Tactic.h" />
+    <ClInclude Include="Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractAttack.cpp" />
+    <ClCompile Include="AbstractBuildBuildings.cpp" />
+    <ClCompile Include="AbstractCollectResources.cpp" />
+    <ClCompile Include="AbstractCreateOrUpdateUnits.cpp" />
+    <ClCompile Include="AbstractDefend.cpp" />
+    <ClCompile Include="AbstractScouting.cpp" />
+    <ClCompile Include="AreThereEnoughSupplies.cpp" />
+    <ClCompile Include="BehaviorTreesStrategy.cpp" />
+    <ClCompile Include="BuildBuildings.cpp" />
+    <ClCompile Include="BuildingOrder.cpp" />
+    <ClCompile Include="BuildingOrdersManager.cpp" />
+    <ClCompile Include="CollectResources.cpp" />
+    <ClCompile Include="CreateMarines.cpp" />
+    <ClCompile Include="CreateWorkers.cpp" />
+    <ClCompile Include="Defend.cpp" />
+    <ClCompile Include="InsertBarracksIntoBuildingQueue.cpp" />
+    <ClCompile Include="InsertCommandCenterIntoBuildingQueue.cpp" />
+    <ClCompile Include="InsertSupplyDepotsIntoBuildingQueue.cpp" />
+    <ClCompile Include="IsBuildingQueueEmpty.cpp" />
+    <ClCompile Include="IsFirstAttack.cpp" />
+    <ClCompile Include="IsNotFirstAttack.cpp" />
+    <ClCompile Include="IsThereACommandCenter.cpp" />
+    <ClCompile Include="IsThereAnyBarrack.cpp" />
+    <ClCompile Include="KnowledgeBase.cpp" />
+    <ClCompile Include="LessThanNMarines.cpp" />
+    <ClCompile Include="LessThanNUnits.cpp" />
+    <ClCompile Include="MoreThanNUnits.cpp" />
+    <ClCompile Include="MoreThanNWorkers.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="MoreThanNBarracks.cpp" />
+    <ClCompile Include="ScoutReachableBaseLocations.cpp" />
+    <ClCompile Include="SeekAndDestroy.cpp" />
+    <ClCompile Include="Strategy.cpp" />
+    <ClCompile Include="TacticAction.cpp" />
+    <ClCompile Include="UnderAttack.cpp" />
+    <ClCompile Include="WaveAttack.cpp" />
+    <ClCompile Include="Tactic.cpp" />
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

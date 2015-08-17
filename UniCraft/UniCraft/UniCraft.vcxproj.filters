@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Concrete Tactics">
+      <UniqueIdentifier>{6d409e3e-fc8a-48bf-904a-bc5c790c45ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior Trees">
+      <UniqueIdentifier>{4af0bf21-88ce-4a2e-b12c-9ede5219ed51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concrete Tactics\Header Files">
+      <UniqueIdentifier>{ed92e30f-f9eb-44a8-b309-48d249b5f6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concrete Tactics\Source Files">
+      <UniqueIdentifier>{c6b88fda-f4a2-469b-8c21-dee9b763cb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior Trees\Header Files">
+      <UniqueIdentifier>{4cf7fbbd-26a6-4397-9fcd-3eb369c661c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior Trees\Source Files">
+      <UniqueIdentifier>{48500253-9a9f-4883-9202-a11cfe52ec71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KnowledgeBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tactic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractAttack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBuildBuildings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractCollectResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractCreateOrUpdateUnits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractDefend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScouting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingOrdersManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateOrUpdateUnits.h">
+      <Filter>Concrete Tactics</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTreesStrategy.h">
+      <Filter>Behavior Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildBuildings.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectResources.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMarines.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateWorkers.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defend.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveAttack.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoutReachableBaseLocations.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertBarracksIntoBuildingQueue.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertCommandCenterIntoBuildingQueue.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertSupplyDepotsIntoBuildingQueue.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsBuildingQueueEmpty.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsThereACommandCenter.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsThereAnyBarrack.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LessThanNUnits.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreThanNBarracks.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreThanNUnits.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreThanNWorkers.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticAction.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderAttack.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AreThereEnoughSupplies.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsFirstAttack.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LessThanNMarines.h">
+      <Filter>Behavior Trees\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekAndDestroy.h">
+      <Filter>Concrete Tactics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsNotFirstAttack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KnowledgeBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tactic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractAttack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractBuildBuildings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractCollectResources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractCreateOrUpdateUnits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractDefend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractScouting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingOrdersManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTreesStrategy.cpp">
+      <Filter>Behavior Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMarines.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectResources.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildBuildings.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateWorkers.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defend.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoutReachableBaseLocations.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveAttack.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AreThereEnoughSupplies.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertBarracksIntoBuildingQueue.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertCommandCenterIntoBuildingQueue.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSupplyDepotsIntoBuildingQueue.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsBuildingQueueEmpty.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsThereACommandCenter.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsThereAnyBarrack.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LessThanNUnits.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreThanNBarracks.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreThanNUnits.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreThanNWorkers.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticAction.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderAttack.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsFirstAttack.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LessThanNMarines.cpp">
+      <Filter>Behavior Trees\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekAndDestroy.cpp">
+      <Filter>Concrete Tactics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsNotFirstAttack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
