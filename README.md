@@ -1,10 +1,12 @@
 # UniCraft
 
-In order to compile the project put BWAPI, BWTA and BehaviorTrees to ..\External\Include\ ..\External\Lib\
+The code was compiled using Visual Studio 2013.
 
 ---------------------------------------------------------
 
-The code was compiled using Visual Studio 2013.
+In order to compile the UniCraft project put BWAPI, BWTA and BehaviorTrees to ..\External\Include\ ..\External\Lib\
+
+---------------------------------------------------------
 
 BWAPI must be installed on your computer in order to inject the code in Starcraft.
 
