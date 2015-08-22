@@ -9,7 +9,7 @@ class Strategy
 	public:
 		Strategy();
 		~Strategy();
-		virtual void performActionsOfThisStep();
+		void performActionsOfThisStep();
 		virtual void compute() = 0;
 
 		void addTactic(Tactic*);
