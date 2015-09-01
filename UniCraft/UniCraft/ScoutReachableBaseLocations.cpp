@@ -66,7 +66,7 @@ void ScoutReachableBaseLocations::execute()
 				if (baseLocations.size() == 0)
 					baseLocations = knowledgeBase->getBaseLocations();
 
-				if (inTheCenter && !attacked) //Se lo scout raggiunge il centro dell'area molto probabilmente non è colonizzata dal nemico, quindi esplolara in cerca di edifici non visibili
+				if (inTheCenter && !attacked) //Se lo scout raggiunge il centro dell'area molto probabilmente non Ã¨ colonizzata dal nemico, quindi esplolara in cerca di edifici non visibili
 				{
 					if (corner < 4)
 					{
@@ -196,7 +196,7 @@ void ScoutReachableBaseLocations::execute()
 						lastDestinationReached = false;
 					}
 
-					Unit closestEnemyBase = scout->getClosestUnit(Filter::IsEnemy && Filter::IsResourceDepot);
+					Unit closestEnemyBase = scout->getClosestUnit(Filter::IsEnemy && (Filter::IsResourceDepot || Filter::GetType == UnitTypes::Terran_Bunker || Filter::GetType == UnitTypes::Zerg_Sunken_Colony));
 
 					if (closestEnemyBase)
 						knowledgeBase->addEnemyBasePosition(closestEnemyBase->getPosition());
